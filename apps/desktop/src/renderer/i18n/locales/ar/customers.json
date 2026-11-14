@@ -1,0 +1,88 @@
+{
+  "searchPlaceholder": "ابحث عن الضيوف بالاسم أو الهاتف أو العنوان",
+  "searchAria": "البحث عن العملاء",
+  "clearSearch": "مسح البحث",
+  "count": "{count} ضيف",
+  "new": "عميل جديد",
+  "loading": "جارٍ تحميل الضيوف",
+  "columns": {
+    "guest": "الضيف",
+    "contact": "التواصل",
+    "address": "العنوان",
+    "orders": "الطلبات",
+    "totalSpent": "إجمالي الإنفاق",
+    "lastOrder": "آخر طلب"
+  },
+  "returning": "ضيف متكرر",
+  "newGuest": "ضيف جديد",
+  "noOrders": "لا توجد طلبات بعد",
+  "viewAria": "عرض {name}",
+  "editAria": "تعديل {name}",
+  "deleteAria": "حذف {name}",
+  "errors": {
+    "load": "تعذّر تحميل العملاء",
+    "detail": "تعذّر تحميل هذا العميل",
+    "save": "تعذّر حفظ هذا العميل",
+    "delete": "تعذّر حذف هذا العميل",
+    "details": "تحقق من بيانات العميل"
+  },
+  "empty": {
+    "searchTitle": "لا يوجد عملاء يطابقون بحثك",
+    "searchMessage": "جرّب اسمًا أو رقم هاتف مختلفًا.",
+    "title": "لا يوجد عملاء بعد",
+    "message": "احفظ ضيفًا من الكاشير أو أضف عميلًا يدويًا لبناء دفتر الضيوف."
+  },
+  "toasts": {
+    "created": "تم إنشاء العميل",
+    "updated": "تم تحديث العميل",
+    "deleted": "تم حذف العميل"
+  },
+  "form": {
+    "createTitle": "عميل جديد",
+    "editTitle": "تعديل العميل",
+    "createDescription": "أضف ملفًا للضيف لتتبع بيانات التواصل وسجل الطلبات.",
+    "editDescription": "حدّث بيانات التواصل لهذا الضيف.",
+    "name": "الاسم الكامل",
+    "namePlaceholder": "مثال: نور السيد",
+    "phone": "الهاتف",
+    "phonePlaceholder": "٠١٠ ٠٠٠٠ ٠٠٠٠",
+    "address": "العنوان",
+    "addressPlaceholder": "الشارع، المبنى، المنطقة",
+    "notes": "ملاحظات",
+    "notesPlaceholder": "الحساسية، الطاولة المفضلة، تعليمات التوصيل…",
+    "create": "إنشاء عميل",
+    "save": "حفظ التغييرات"
+  },
+  "detail": {
+    "title": "العميل",
+    "description": "ملف الضيف وسجل الإنفاق والطلبات",
+    "loadingAria": "جارٍ تحميل ملف العميل",
+    "noPhone": "لا يوجد هاتف",
+    "noAddress": "لا يوجد عنوان",
+    "registered": "مسجّل {date}",
+    "orders": "الطلبات",
+    "totalSpent": "إجمالي الإنفاق",
+    "lastOrder": "آخر طلب",
+    "notes": "ملاحظات",
+    "recentOrders": "الطلبات الأخيرة",
+    "shown": "{count} معروض",
+    "noOrders": "لا توجد طلبات لهذا الضيف بعد.",
+    "close": "إغلاق",
+    "editProfile": "تعديل الملف",
+    "notFoundTitle": "العميل غير موجود",
+    "notFoundMessage": "ربما تم حذف هذا الملف.",
+    "columns": {
+      "order": "الطلب",
+      "service": "الخدمة",
+      "status": "الحالة",
+      "payment": "الدفع",
+      "total": "الإجمالي",
+      "placed": "وقت الطلب"
+    }
+  },
+  "deleteDialog": {
+    "title": "حذف هذا العميل؟",
+    "description": "سيُزال من دفتر الضيوف. لا يمكن حذف العملاء الذين لديهم طلبات سابقة؛ يُحفظ سجلهم للتقارير.",
+    "confirm": "حذف العميل"
+  }
+}

@@ -1,0 +1,659 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * IBM Plex Sans Arabic — bundled Arabic subset only. The unicode-range keeps
+ * these faces away from Latin glyphs, so English keeps its existing type
+ * stack while Arabic gets a geometric, modern face.
+ */
+@font-face {
+  font-family: 'IBM Plex Sans Arabic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./assets/fonts/IBMPlexSansArabic-Regular.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E,
+    U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB,
+    U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF0-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F,
+    U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42,
+    U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B,
+    U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77,
+    U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9,
+    U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans Arabic';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./assets/fonts/IBMPlexSansArabic-Medium.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E,
+    U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB,
+    U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF0-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F,
+    U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42,
+    U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B,
+    U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77,
+    U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9,
+    U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans Arabic';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('./assets/fonts/IBMPlexSansArabic-SemiBold.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E,
+    U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB,
+    U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF0-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F,
+    U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42,
+    U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B,
+    U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77,
+    U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9,
+    U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans Arabic';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./assets/fonts/IBMPlexSansArabic-Bold.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E,
+    U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB,
+    U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF0-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F,
+    U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42,
+    U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B,
+    U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77,
+    U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9,
+    U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+
+@layer base {
+  :root {
+    /* Cream canvas, espresso ink, coffee-brown structure and caramel accents. */
+    --background: 36 44% 96%;
+    --foreground: 20 26% 13%;
+
+    --card: 40 52% 99%;
+    --card-foreground: 20 26% 13%;
+    --popover: 40 52% 99%;
+    --popover-foreground: 20 26% 13%;
+
+    --primary: 20 34% 16%;
+    --primary-foreground: 38 48% 96%;
+
+    --secondary: 27 52% 36%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 34 27% 91%;
+    --muted-foreground: 24 11% 42%;
+
+    --skeleton: 32 20% 89%;
+    --skeleton-highlight: 38 44% 98%;
+
+    --accent: 30 68% 46%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 46%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 148 40% 31%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 32 82% 40%;
+    --warning-foreground: 0 0% 100%;
+
+    --info: 212 50% 42%;
+    --info-foreground: 0 0% 100%;
+
+    --border: 32 22% 84%;
+    --input: 32 22% 81%;
+    --ring: 30 68% 46%;
+
+    --sidebar: 20 30% 9%;
+    --sidebar-foreground: 38 42% 95%;
+    --sidebar-muted: 30 11% 63%;
+    --sidebar-active: 22 20% 15%;
+
+    --brand-coffee: 20 36% 19%;
+    --brand-caramel: 30 68% 46%;
+    --brand-cream: 38 48% 94%;
+    --brand-red: 20 36% 19%;
+    --brand-orange: 30 68% 46%;
+
+    --radius: 0.9rem;
+    --font-arabic: 'IBM Plex Sans Arabic', 'Segoe UI', Tahoma, 'Noto Sans Arabic', Arial, sans-serif;
+
+    color-scheme: light;
+  }
+
+  .dark {
+    /* Espresso after dark: warm ink, caramel highlights, same calm structure. */
+    --background: 20 18% 7%;
+    --foreground: 36 32% 94%;
+
+    --card: 20 16% 10%;
+    --card-foreground: 36 32% 94%;
+    --popover: 20 16% 10%;
+    --popover-foreground: 36 32% 94%;
+
+    --primary: 30 47% 48%;
+    --primary-foreground: 20 20% 9%;
+
+    --secondary: 30 58% 52%;
+    --secondary-foreground: 20 20% 8%;
+
+    --muted: 20 12% 15%;
+    --muted-foreground: 30 13% 67%;
+
+    --skeleton: 20 9% 16%;
+    --skeleton-highlight: 26 14% 24%;
+
+    --accent: 30 72% 55%;
+    --accent-foreground: 20 22% 8%;
+
+    --destructive: 0 60% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 148 36% 45%;
+    --success-foreground: 20 20% 8%;
+
+    --warning: 32 86% 55%;
+    --warning-foreground: 20 20% 8%;
+
+    --info: 212 58% 62%;
+    --info-foreground: 20 20% 8%;
+
+    --border: 20 12% 20%;
+    --input: 20 12% 25%;
+    --ring: 30 72% 55%;
+
+    --sidebar: 20 24% 4%;
+    --sidebar-foreground: 38 42% 95%;
+    --sidebar-muted: 30 11% 60%;
+    --sidebar-active: 22 16% 11%;
+
+    --brand-coffee: 34 30% 86%;
+    --brand-caramel: 30 72% 55%;
+    --brand-cream: 38 40% 90%;
+    --brand-red: 34 30% 86%;
+    --brand-orange: 30 72% 55%;
+
+    color-scheme: dark;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: 'kern', 'liga';
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', 'Times New Roman', serif;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+  }
+
+  /*
+   * Arabic is a connected script: letter-spacing and forced uppercase break
+   * readability, and the condensed display face has no Arabic glyphs. Point
+   * the whole Arabic document at the bundled geometric Arabic family, keep
+   * neutral tracking and let real weights render instead of synthetic bold.
+   */
+  [lang='ar'],
+  [lang='ar'] body,
+  [lang='ar'] h1,
+  [lang='ar'] h2,
+  [lang='ar'] h3,
+  [lang='ar'] .font-display,
+  [lang='ar'] .hero-type,
+  [lang='ar'] .invoice-sheet,
+  [lang='ar'] .receipt-sheet,
+  [lang='ar'] .kitchen-sheet {
+    font-family: var(--font-arabic);
+    font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+    font-kerning: normal;
+    font-synthesis: none;
+    letter-spacing: 0 !important;
+    text-transform: none;
+  }
+
+  [lang='ar'] .hero-type {
+    line-height: 1.05;
+  }
+
+  [lang='ar'] .invoice-sheet th {
+    text-align: right;
+  }
+
+  .numeric {
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
+  }
+
+  [lang='ar'] .numeric {
+    font-variant-numeric: normal;
+    letter-spacing: 0;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track,
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-border;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground/40;
+  }
+
+  .sidebar-scroll::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .sidebar-scroll::-webkit-scrollbar-thumb {
+    background: hsl(var(--sidebar-muted) / 0.22);
+  }
+
+  .sidebar-scroll::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--sidebar-muted) / 0.38);
+  }
+
+  ::selection {
+    background: hsl(var(--accent) / 0.22);
+  }
+}
+
+@layer components {
+  .focus-ring {
+    @apply outline-none ring-offset-2 ring-offset-background focus-visible:ring-2 focus-visible:ring-ring;
+  }
+
+  .surface-card {
+    @apply rounded-xl border border-border bg-card shadow-card;
+  }
+
+  .th-label {
+    @apply text-[12px] font-semibold uppercase tracking-[0.08em] text-muted-foreground;
+  }
+}
+
+/*
+ * Skeleton screens: a flat placeholder with a single soft highlight travelling
+ * across it. Only `transform` is animated, so large tables stay composited and
+ * do not repaint on every frame. The highlight follows the document direction.
+ */
+.skeleton-shimmer {
+  position: relative;
+  overflow: hidden;
+  background-color: hsl(var(--skeleton));
+}
+
+.skeleton-shimmer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    hsl(var(--skeleton-highlight) / 0.75) 50%,
+    transparent 100%
+  );
+  transform: translate3d(-100%, 0, 0);
+  animation: skeleton-shimmer-ltr 1.55s linear infinite;
+  will-change: transform;
+}
+
+[dir='rtl'] .skeleton-shimmer::after,
+.skeleton-shimmer[dir='rtl']::after,
+.skeleton-shimmer:dir(rtl)::after {
+  animation-name: skeleton-shimmer-rtl;
+}
+
+/* Paper previews stay light in both themes, so their placeholders should too. */
+.skeleton-on-paper {
+  --skeleton: 30 16% 92%;
+  --skeleton-highlight: 0 0% 100%;
+}
+
+@keyframes skeleton-shimmer-ltr {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes skeleton-shimmer-rtl {
+  0% {
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton-shimmer::after {
+    animation: none;
+    opacity: 0;
+  }
+}
+
+/* Storefront display type: a warm serif with a quiet espresso shadow. */
+.hero-type {
+  font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', 'Times New Roman', serif;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  line-height: 0.95;
+  color: hsl(38 56% 97%);
+  text-shadow: 0 0.05em 0.35em rgb(20 12 6 / 0.55);
+}
+
+/* Coffee loading screen: crema ring, warm glow and an indeterminate service rail. */
+.coffee-ring {
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg 236deg,
+    hsl(30 68% 52% / 0.12) 258deg,
+    hsl(30 68% 56%) 322deg,
+    hsl(20 40% 38%) 358deg,
+    transparent 360deg
+  );
+  -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 3px), #000 calc(100% - 3px));
+  mask: radial-gradient(farthest-side, transparent calc(100% - 3px), #000 calc(100% - 3px));
+  animation: coffee-ring-spin 1.7s linear infinite;
+}
+
+.coffee-loader-glow {
+  position: absolute;
+  inset: 12%;
+  border-radius: 9999px;
+  background: radial-gradient(circle, hsl(30 68% 48% / 0.30), transparent 64%);
+  filter: blur(12px);
+}
+
+.coffee-loader-bar {
+  width: 42%;
+  animation: coffee-bar-sweep 1.5s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+
+.coffee-loader-leaving {
+  animation: coffee-loader-out 240ms ease-in forwards;
+}
+
+@keyframes coffee-ring-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes coffee-bar-sweep {
+  0% {
+    transform: translateX(-110%);
+  }
+  100% {
+    transform: translateX(340%);
+  }
+}
+
+@keyframes coffee-loader-out {
+  to {
+    opacity: 0;
+    transform: scale(1.015);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .coffee-ring,
+  .coffee-loader-bar {
+    animation: none;
+  }
+
+  .coffee-loader-bar {
+    width: 100%;
+    opacity: 0.45;
+  }
+}
+
+/* Storefront helpers: soft reveal on scroll and a warm inset section. */
+.section-shell {
+  width: 100%;
+  max-width: 82rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .section-shell {
+    padding-inline: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .section-shell {
+    padding-inline: 2.5rem;
+  }
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+/* Receipt / invoice printing. While printing, only `.print-area` stays visible. */
+.print-area {
+  background: #fff;
+  color: #14110f;
+}
+
+.invoice-sheet {
+  width: 190mm;
+  min-height: 258mm;
+  padding: 14mm;
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.receipt-sheet {
+  width: 72mm;
+  padding: 4mm 3mm;
+  font-family: 'Consolas', 'Courier New', monospace;
+  font-size: 10.5px;
+  line-height: 1.4;
+}
+
+/* Kitchen docket: same paper sizes as the invoice, no prices. */
+.kitchen-sheet {
+  width: 190mm;
+  min-height: 258mm;
+  padding: 14mm;
+  font-size: 12px;
+  line-height: 1.5;
+  background: #fff;
+}
+
+.invoice-sheet table,
+.receipt-sheet table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.invoice-sheet th {
+  text-align: left;
+  border-bottom: 1px solid #d8d0c8;
+  padding: 6px 4px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #6b6259;
+}
+
+.invoice-sheet td {
+  padding: 6px 4px;
+  border-bottom: 1px solid #efe9e3;
+  vertical-align: top;
+}
+
+.receipt-sheet .row {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.receipt-sheet .divider {
+  border-top: 1px dashed #999;
+  margin: 3mm 0;
+}
+
+@media print {
+  html,
+  body {
+    height: auto !important;
+    background: #fff !important;
+  }
+
+  body * {
+    visibility: hidden;
+  }
+
+  .print-area,
+  .print-area * {
+    visibility: visible;
+  }
+
+  .print-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0 !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .kitchen-sheet,
+  .kitchen-copy-page {
+    break-before: page;
+    page-break-before: always;
+  }
+}
+
+/*
+ * Arabic reads smaller and lighter than Latin at the same size, so the Arabic
+ * document gets one step up in weight and size. Unlayered on purpose: these
+ * rules must beat the Tailwind utility classes they shadow. Latin/English is
+ * untouched because every selector is gated on html[lang='ar'].
+ */
+html[lang='ar'] body {
+  font-weight: 500;
+}
+
+html[lang='ar'] .font-normal {
+  font-weight: 500;
+}
+
+html[lang='ar'] .font-medium {
+  font-weight: 600;
+}
+
+html[lang='ar'] .font-semibold {
+  font-weight: 700;
+}
+
+html[lang='ar'] .text-\[9px\] {
+  font-size: 10px;
+}
+
+html[lang='ar'] .text-\[10px\] {
+  font-size: 11px;
+}
+
+html[lang='ar'] .text-\[11px\] {
+  font-size: 12px;
+}
+
+html[lang='ar'] .text-\[12px\] {
+  font-size: 13px;
+}
+
+html[lang='ar'] .text-\[13px\] {
+  font-size: 14px;
+}
+
+html[lang='ar'] .text-xs {
+  font-size: 14px;
+}
+
+html[lang='ar'] .text-sm {
+  font-size: 16px;
+}
+
+html[lang='ar'] .text-\[15px\] {
+  font-size: 16px;
+}
+
+html[lang='ar'] .text-base {
+  font-size: 17px;
+}
+
+html[lang='ar'] .text-\[17px\] {
+  font-size: 18px;
+}
+
+html[lang='ar'] .text-lg {
+  font-size: 19px;
+}
+
+html[lang='ar'] .text-xl {
+  font-size: 22px;
+}
+
+html[lang='ar'] .text-\[22px\] {
+  font-size: 24px;
+}
+
+html[lang='ar'] .text-2xl {
+  font-size: 26px;
+}
+
+html[lang='ar'] .text-\[27px\] {
+  font-size: 29px;
+}
+
+html[lang='ar'] .text-\[30px\] {
+  font-size: 32px;
+}

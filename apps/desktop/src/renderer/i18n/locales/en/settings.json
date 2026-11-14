@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "title": "Coffee house identity",
+    "description": "Shown on the shop, receipts and printed invoices.",
+    "nameEn": "Coffee house name (English)",
+    "nameAr": "Coffee house name (Arabic)",
+    "namePlaceholderEn": "Qahwa Coffee House",
+    "namePlaceholderAr": "قهوة هاوس",
+    "nameRequired": "Coffee house name is required in both English and Arabic",
+    "taglineEn": "Tagline (English)",
+    "taglineAr": "Tagline (Arabic)",
+    "taglinePlaceholderEn": "Your daily dose of happiness.",
+    "taglinePlaceholderAr": "جرعتك اليومية من السعادة.",
+    "phone": "Phone",
+    "phonePlaceholder": "+20 2 2358 4410",
+    "email": "Email",
+    "emailPlaceholder": "hello@qahwa.cafe",
+    "addressEn": "Address (English)",
+    "addressAr": "Address (Arabic)",
+    "addressPlaceholderEn": "Street, district, city",
+    "addressPlaceholderAr": "الشارع، الحي، المدينة",
+    "currency": "Currency code",
+    "currencyHint": "Used for display and reporting. Amounts are stored with two decimals."
+  },
+  "charges": {
+    "title": "Tax & service charges",
+    "description": "Applied by the server to every new order at checkout.",
+    "tax": "Sales tax rate (%)",
+    "taxHint": "Charged on the subtotal after discounts. Current: {rate}%.",
+    "delivery": "Delivery fee",
+    "deliveryHint": "Fixed fee added to delivery orders only.",
+    "discount": "Cashier discount limit (%)",
+    "discountHint": "Cashiers cannot apply a percentage discount above this value. Fixed discounts are capped at the order subtotal. Administrators are not limited."
+  },
+  "receipt": {
+    "title": "Receipt footer",
+    "description": "Closing message printed on receipts and invoices.",
+    "footerEn": "Footer (English)",
+    "footerAr": "Footer (Arabic)",
+    "placeholderEn": "Thank you for choosing Qahwa. See you tomorrow.",
+    "placeholderAr": "شكرًا لاختيارك قهوة. نراك غدًا.",
+    "ariaEn": "Receipt footer (English)",
+    "ariaAr": "Receipt footer (Arabic)",
+    "updated": "Last updated {date}"
+  },
+  "errors": {
+    "load": "Could not load coffee house settings",
+    "save": "Could not save settings",
+    "taxRequired": "Tax rate is required",
+    "discountRequired": "Cashier discount limit is required",
+    "percentRange": "{label} must be between 0 and 100",
+    "deliveryRequired": "Delivery fee is required",
+    "deliveryInvalid": "Delivery fee must be a positive amount with up to 2 decimals",
+    "currencyRequired": "Currency code is required",
+    "check": "Check the coffee house settings"
+  },
+  "toast": {
+    "saved": "Settings saved",
+    "savedMessage": "New taxes and fees apply to the next order."
+  },
+  "discard": "Discard",
+  "save": "Save settings",
+  "footer": "Changes affect new orders only. Existing invoices keep the values they were issued with."
+}

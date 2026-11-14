@@ -1,0 +1,248 @@
+{
+  "app": {
+    "name": "قهوة",
+    "company": "هاوس",
+    "fullName": "قهوة هاوس",
+    "location": "المعادي، القاهرة",
+    "tagline": "جرعتك اليومية من السعادة.",
+    "loading": "جارٍ التحميل…"
+  },
+  "charts": {
+    "trendAria": "مخطط الاتجاه",
+    "distributionAria": "مخطط التوزيع",
+    "noData": "لا توجد بيانات لهذه الفترة"
+  },
+  "skeletons": {
+    "dashboard": "جارٍ تحميل لوحة التحكم",
+    "kitchen": "جارٍ تحميل لوحة الباريستا",
+    "pos": "جارٍ تحميل المتجر",
+    "reports": "جارٍ تحميل التقرير",
+    "settings": "جارٍ تحميل إعدادات الكوفي شوب"
+  },
+  "actions": {
+    "save": "حفظ",
+    "saving": "جارٍ الحفظ…",
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "create": "إنشاء",
+    "update": "تحديث",
+    "search": "بحث",
+    "reset": "إعادة تعيين",
+    "retry": "المحاولة مرة أخرى",
+    "refresh": "تحديث",
+    "print": "طباعة",
+    "download": "تنزيل",
+    "confirm": "تأكيد",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "clear": "مسح",
+    "apply": "تطبيق",
+    "remove": "إزالة",
+    "view": "عرض",
+    "open": "فتح",
+    "export": "تصدير",
+    "signIn": "تسجيل الدخول",
+    "signOut": "تسجيل الخروج",
+    "newOrder": "طلب جديد",
+    "select": "اختيار",
+    "all": "الكل",
+    "yes": "نعم",
+    "no": "لا",
+    "ok": "حسنًا",
+    "continue": "متابعة",
+    "done": "تم",
+    "details": "التفاصيل",
+    "total": "الإجمالي",
+    "quantity": "الكمية",
+    "price": "السعر",
+    "date": "التاريخ",
+    "time": "الوقت",
+    "status": "الحالة",
+    "type": "النوع",
+    "name": "الاسم",
+    "description": "الوصف",
+    "notes": "ملاحظات",
+    "phone": "الهاتف",
+    "email": "البريد الإلكتروني",
+    "address": "العنوان",
+    "optional": "اختياري",
+    "required": "مطلوب",
+    "none": "لا يوجد",
+    "unknown": "غير معروف",
+    "showing": "عرض {count} من {total}",
+    "loadMore": "تحميل المزيد"
+  },
+  "labels": {
+    "currency": "ج.م",
+    "orderStatus": {
+      "pending": "جديد",
+      "confirmed": "مقبول",
+      "preparing": "قيد التحضير",
+      "ready": "جاهز",
+      "completed": "مكتمل",
+      "cancelled": "ملغي"
+    },
+    "orderType": {
+      "DINE_IN": "تناول في المكان",
+      "TAKEAWAY": "استلام",
+      "DELIVERY": "توصيل"
+    },
+    "paymentMethod": {
+      "CASH": "نقدي",
+      "CARD": "بطاقة",
+      "WALLET": "محفظة إلكترونية"
+    },
+    "paymentStatus": {
+      "PAID": "مدفوع",
+      "UNPAID": "غير مدفوع",
+      "REFUNDED": "مسترد"
+    },
+    "menuKind": {
+      "HOT_DRINK": "مشروب ساخن",
+      "COLD_DRINK": "مشروب بارد",
+      "BAKERY": "مخبوزات",
+      "DESSERT": "حلويات"
+    },
+    "unit": {
+      "KG": "كجم",
+      "G": "جم",
+      "L": "لتر",
+      "ML": "مل",
+      "PIECE": "قطعة",
+      "PACK": "عبوة"
+    },
+    "movement": {
+      "PURCHASE": "شراء / إعادة تخزين",
+      "SALE_DEDUCTION": "خصم طلب",
+      "ADJUSTMENT": "تعديل مخزون",
+      "WASTE": "هدر",
+      "RETURN": "مرتجع للمورد",
+      "CANCELLATION_RETURN": "إلغاء طلب"
+    },
+    "role": {
+      "ADMIN": "مدير",
+      "CASHIER": "كاشير",
+      "KITCHEN_STAFF": "باريستا"
+    },
+    "roleDescription": {
+      "ADMIN": "تحكم كامل بالكوفي شوب والقائمة والمخزون والتقارير المالية.",
+      "CASHIER": "يشغّل نقطة البيع وينشئ الطلبات ويحصّل المدفوعات ويطبع الفواتير.",
+      "KITCHEN_STAFF": "يعمل على بار الباريستا ويحدّث حالة تحضير المشروبات."
+    },
+    "discountType": {
+      "PERCENT": "نسبة مئوية",
+      "FIXED": "مبلغ ثابت"
+    }
+  },
+  "states": {
+    "loading": "جارٍ التحميل…",
+    "loadingData": "جارٍ تحميل البيانات…",
+    "empty": "لا توجد بيانات بعد",
+    "noResults": "لا توجد نتائج مطابقة لبحثك",
+    "error": "حدث خطأ ما",
+    "errorHint": "يرجى المحاولة مجددًا. إذا استمرت المشكلة، تحقق من اتصال الخادم.",
+    "serverUnreachable": "تعذّر الوصول إلى الخادم",
+    "kitchenOnline": "بار الباريستا متصل",
+    "retry": "المحاولة مرة أخرى",
+    "notFound": "غير موجود",
+    "noPermission": "لا تملك صلاحية عرض هذا المحتوى."
+  },
+  "theme": {
+    "light": "فاتح",
+    "dark": "داكن",
+    "switchToLight": "التبديل إلى الوضع الفاتح",
+    "switchToDark": "التبديل إلى الوضع الداكن"
+  },
+  "language": {
+    "label": "اللغة",
+    "english": "English",
+    "arabic": "العربية",
+    "englishShort": "EN",
+    "arabicShort": "AR",
+    "switchToArabic": "التبديل إلى العربية",
+    "switchToEnglish": "التبديل إلى الإنجليزية"
+  },
+  "pagination": {
+    "pageOf": "صفحة {page} من {total}",
+    "previous": "الصفحة السابقة",
+    "next": "الصفحة التالية",
+    "range": "{from}–{to} من {total}"
+  },
+  "validation": {
+    "required": "هذا الحقل مطلوب",
+    "requiredBothLanguages": "أدخل هذا الحقل باللغتين الإنجليزية والعربية",
+    "invalidEmail": "أدخل بريدًا إلكترونيًا صالحًا",
+    "invalidPhone": "أدخل رقم هاتف صالحًا",
+    "positive": "أدخل قيمة أكبر من صفر",
+    "nonNegative": "أدخل صفرًا أو قيمة موجبة",
+    "tooShort": "هذه القيمة قصيرة جدًا",
+    "tooLong": "هذه القيمة طويلة جدًا",
+    "mismatch": "القيم غير متطابقة",
+    "invalidNumber": "أدخل رقمًا صالحًا"
+  },
+  "feedback": {
+    "saved": "تم الحفظ",
+    "created": "تم الإنشاء",
+    "updated": "تم التحديث",
+    "deleted": "تم الحذف",
+    "copied": "تم النسخ",
+    "changesSaved": "تم حفظ تغييراتك."
+  },
+  "confirm": {
+    "title": "هل أنت متأكد؟",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد"
+  },
+  "audit": {
+    "actions": {
+      "authLoginFailed": "فشل تسجيل الدخول",
+      "authLoginSuccess": "تم تسجيل الدخول",
+      "authLogout": "تم تسجيل الخروج",
+      "authPasswordChanged": "تم تغيير كلمة المرور",
+      "authRefresh": "تم تحديث الجلسة",
+      "categoryCreated": "تم إنشاء فئة",
+      "categoryDeleted": "تم حذف فئة",
+      "categoryUpdated": "تم تحديث فئة",
+      "customerCreated": "تم إنشاء عميل",
+      "customerDeleted": "تم حذف عميل",
+      "customerUpdated": "تم تحديث عميل",
+      "discountCreated": "تم إنشاء خصم",
+      "discountDeleted": "تم حذف خصم",
+      "discountUpdated": "تم تحديث خصم",
+      "inventoryAdjusted": "تم تعديل المخزون",
+      "ingredientCreated": "تم إنشاء مكوّن",
+      "ingredientDeleted": "تم حذف مكوّن",
+      "ingredientUpdated": "تم تحديث مكوّن",
+      "inventoryPurchased": "تم استلام مخزون",
+      "menuItemCreated": "تم إنشاء صنف",
+      "menuItemDeleted": "تم حذف صنف",
+      "menuItemUpdated": "تم تحديث صنف",
+      "recipeUpdated": "تم تحديث وصفة",
+      "toppingCreated": "تم إنشاء إضافة",
+      "toppingDeleted": "تم حذف إضافة",
+      "toppingUpdated": "تم تحديث إضافة",
+      "orderCancelled": "تم إلغاء طلب",
+      "orderCreated": "تم إنشاء طلب",
+      "orderStatusUpdated": "تم تحديث حالة طلب",
+      "settingsUpdated": "تم تحديث الإعدادات",
+      "supplierCreated": "تم إنشاء مورد",
+      "supplierDeleted": "تم حذف مورد",
+      "supplierUpdated": "تم تحديث مورد",
+      "userCreated": "تم إنشاء حساب موظف",
+      "userDeactivated": "تم تعطيل حساب موظف",
+      "userPasswordReset": "تمت إعادة تعيين كلمة المرور",
+      "userUpdated": "تم تحديث حساب موظف"
+    }
+  },
+  "toast": {
+    "success": "نجاح",
+    "error": "حدث خطأ ما",
+    "info": "تنبيه",
+    "dismiss": "تجاهل الإشعار",
+    "notifications": "الإشعارات"
+  }
+}

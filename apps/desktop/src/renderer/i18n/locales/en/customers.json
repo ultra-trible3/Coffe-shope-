@@ -1,0 +1,88 @@
+{
+  "searchPlaceholder": "Search guests by name, phone or address",
+  "searchAria": "Search customers",
+  "clearSearch": "Clear search",
+  "count": "{count} guests",
+  "new": "New customer",
+  "loading": "Loading guests",
+  "columns": {
+    "guest": "Guest",
+    "contact": "Contact",
+    "address": "Address",
+    "orders": "Orders",
+    "totalSpent": "Total spent",
+    "lastOrder": "Last order"
+  },
+  "returning": "Returning guest",
+  "newGuest": "New guest",
+  "noOrders": "No orders yet",
+  "viewAria": "View {name}",
+  "editAria": "Edit {name}",
+  "deleteAria": "Delete {name}",
+  "errors": {
+    "load": "Could not load customers",
+    "detail": "Could not load this customer",
+    "save": "Could not save this customer",
+    "delete": "Could not delete this customer",
+    "details": "Check the customer details"
+  },
+  "empty": {
+    "searchTitle": "No customers match your search",
+    "searchMessage": "Try a different name or phone number.",
+    "title": "No customers yet",
+    "message": "Save a guest from the shop, or add one manually to build your guest book."
+  },
+  "toasts": {
+    "created": "Customer created",
+    "updated": "Customer updated",
+    "deleted": "Customer deleted"
+  },
+  "form": {
+    "createTitle": "New customer",
+    "editTitle": "Edit customer",
+    "createDescription": "Add a guest profile to track contact details and order history.",
+    "editDescription": "Update contact details for this guest.",
+    "name": "Full name",
+    "namePlaceholder": "e.g. Nour El Sayed",
+    "phone": "Phone",
+    "phonePlaceholder": "010 0000 0000",
+    "address": "Address",
+    "addressPlaceholder": "Street, building, area",
+    "notes": "Notes",
+    "notesPlaceholder": "Favourite order, allergies, delivery instructions…",
+    "create": "Create customer",
+    "save": "Save changes"
+  },
+  "detail": {
+    "title": "Customer",
+    "description": "Guest profile, spend history and orders",
+    "loadingAria": "Loading customer profile",
+    "noPhone": "No phone",
+    "noAddress": "No address",
+    "registered": "Registered {date}",
+    "orders": "Orders",
+    "totalSpent": "Total spent",
+    "lastOrder": "Last order",
+    "notes": "Notes",
+    "recentOrders": "Recent orders",
+    "shown": "{count} shown",
+    "noOrders": "This guest has no orders yet.",
+    "close": "Close",
+    "editProfile": "Edit profile",
+    "notFoundTitle": "Customer not found",
+    "notFoundMessage": "This profile may have been deleted.",
+    "columns": {
+      "order": "Order",
+      "service": "Service",
+      "status": "Status",
+      "payment": "Payment",
+      "total": "Total",
+      "placed": "Placed"
+    }
+  },
+  "deleteDialog": {
+    "title": "Delete this customer?",
+    "description": "will be removed from the guest book. Customers with existing orders cannot be deleted; their history is preserved for reporting.",
+    "confirm": "Delete customer"
+  }
+}

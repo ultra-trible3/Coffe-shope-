@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Qahwa Coffee House">
+  <circle cx="32" cy="32" r="32" fill="#241812" />
+  <circle cx="32" cy="32" r="28.4" fill="none" stroke="#c98a4b" stroke-width="1.1" opacity="0.55" />
+  <g fill="none" stroke="#d9a468" stroke-width="1.7" stroke-linecap="round" opacity="0.85">
+    <path d="M24.5 27.5c-1.9-2.6 1.9-4.4 0-7" />
+    <path d="M32 27.5c-1.9-2.6 1.9-4.4 0-7" />
+    <path d="M39.5 27.5c-1.9-2.6 1.9-4.4 0-7" />
+  </g>
+  <path
+    d="M18 32.5h23l-2.2 10.6a6.4 6.4 0 0 1-6.3 5.1h-6a6.4 6.4 0 0 1-6.3-5.1z"
+    fill="#f6ead9"
+  />
+  <path
+    d="M41.2 35.2h2.4a4.9 4.9 0 0 1 0 9.8h-2.1"
+    fill="none"
+    stroke="#f6ead9"
+    stroke-width="2.1"
+    stroke-linecap="round"
+  />
+  <path d="M14.5 52.4h35" fill="none" stroke="#c98a4b" stroke-width="1.6" stroke-linecap="round" />
+</svg>

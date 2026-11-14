@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "title": "هوية الكوفي شوب",
+    "description": "تظهر في المتجر والإيصالات والفواتير المطبوعة.",
+    "nameEn": "اسم الكوفي شوب (بالإنجليزية)",
+    "nameAr": "اسم الكوفي شوب (بالعربية)",
+    "namePlaceholderEn": "Qahwa Coffee House",
+    "namePlaceholderAr": "قهوة هاوس",
+    "nameRequired": "اسم الكوفي شوب مطلوب بالإنجليزية والعربية",
+    "taglineEn": "الشعار التعريفي (بالإنجليزية)",
+    "taglineAr": "الشعار التعريفي (بالعربية)",
+    "taglinePlaceholderEn": "Your daily dose of happiness.",
+    "taglinePlaceholderAr": "جرعتك اليومية من السعادة.",
+    "phone": "الهاتف",
+    "phonePlaceholder": "+20 2 2358 4410",
+    "email": "البريد الإلكتروني",
+    "emailPlaceholder": "hello@qahwa.cafe",
+    "addressEn": "العنوان (بالإنجليزية)",
+    "addressAr": "العنوان (بالعربية)",
+    "addressPlaceholderEn": "Street, district, city",
+    "addressPlaceholderAr": "الشارع، الحي، المدينة",
+    "currency": "رمز العملة",
+    "currencyHint": "يُستخدم للعرض والتقارير. تُحفظ المبالغ بخانتين عشريتين."
+  },
+  "charges": {
+    "title": "الضريبة ورسوم الخدمة",
+    "description": "يطبقها الخادم على كل طلب جديد عند الدفع.",
+    "tax": "نسبة ضريبة المبيعات (%)",
+    "taxHint": "تُحتسب على المجموع الفرعي بعد الخصومات. الحالي: {rate}%.",
+    "delivery": "رسوم التوصيل",
+    "deliveryHint": "رسوم ثابتة تُضاف لطلبات التوصيل فقط.",
+    "discount": "حد خصم الكاشير (%)",
+    "discountHint": "لا يمكن للكاشير تطبيق خصم نسبي أعلى من هذه القيمة. تُحد الخصومات الثابتة بالمجموع الفرعي للطلب. المديرون غير مقيدين."
+  },
+  "receipt": {
+    "title": "تذييل الإيصال",
+    "description": "رسالة ختامية تُطبع على الإيصالات والفواتير.",
+    "footerEn": "التذييل (بالإنجليزية)",
+    "footerAr": "التذييل (بالعربية)",
+    "placeholderEn": "Thank you for choosing Qahwa. See you tomorrow.",
+    "placeholderAr": "شكرًا لاختيارك قهوة. نراك غدًا.",
+    "ariaEn": "تذييل الإيصال (بالإنجليزية)",
+    "ariaAr": "تذييل الإيصال (بالعربية)",
+    "updated": "آخر تحديث {date}"
+  },
+  "errors": {
+    "load": "تعذّر تحميل إعدادات الكوفي شوب",
+    "save": "تعذّر حفظ الإعدادات",
+    "taxRequired": "نسبة الضريبة مطلوبة",
+    "discountRequired": "حد خصم الكاشير مطلوب",
+    "percentRange": "يجب أن تكون {label} بين ٠ و١٠٠",
+    "deliveryRequired": "رسوم التوصيل مطلوبة",
+    "deliveryInvalid": "يجب أن تكون رسوم التوصيل مبلغًا موجبًا بخانتين عشريتين كحد أقصى",
+    "currencyRequired": "رمز العملة مطلوب",
+    "check": "تحقق من إعدادات الكوفي شوب"
+  },
+  "toast": {
+    "saved": "تم حفظ الإعدادات",
+    "savedMessage": "تُطبّق الضرائب والرسوم الجديدة على الطلب التالي."
+  },
+  "discard": "تجاهل التغييرات",
+  "save": "حفظ الإعدادات",
+  "footer": "تؤثر التغييرات على الطلبات الجديدة فقط. تحتفظ الفواتير السابقة بالقيم الصادرة بها."
+}

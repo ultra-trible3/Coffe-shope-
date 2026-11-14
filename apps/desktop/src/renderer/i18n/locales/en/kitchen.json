@@ -1,0 +1,77 @@
+{
+  "tabs": {
+    "new": "New orders",
+    "preparing": "Brewing",
+    "ready": "Ready",
+    "completed": "Completed"
+  },
+  "empty": {
+    "new": {
+      "title": "No new orders right now",
+      "message": "Fresh tickets appear here automatically the moment the register sends them."
+    },
+    "preparing": {
+      "title": "Nothing on the bar",
+      "message": "Accepted orders show up here until the barista marks them ready."
+    },
+    "ready": {
+      "title": "No orders waiting for pickup",
+      "message": "Orders the barista has finished will wait here for the counter."
+    },
+    "completed": {
+      "title": "No completed orders today",
+      "message": "Handed-over tickets are archived here until the end of the business day."
+    }
+  },
+  "actions": {
+    "accept": "Accept order",
+    "start": "Start brewing",
+    "ready": "Mark ready",
+    "complete": "Complete order",
+    "updating": "Updating…"
+  },
+  "ticket": {
+    "newBadge": "New",
+    "table": "Table {number}",
+    "item": "{count} item",
+    "items": "{count} items",
+    "orderNote": "Order note",
+    "completedAt": "Completed {time}",
+    "updatedAt": "Updated {time}",
+    "details": "Details"
+  },
+  "elapsed": {
+    "justNow": "just now",
+    "minutes": "{count} min ago",
+    "hours": "{hours}h {minutes}m ago"
+  },
+  "live": {
+    "label": "Live board",
+    "refreshes": "Refreshes every {seconds}s",
+    "updated": "Updated {time}",
+    "reconnecting": "Reconnecting…",
+    "refresh": "Refresh",
+    "stagesAria": "Barista order stages"
+  },
+  "toast": {
+    "newTicket": "A new ticket just landed on the board.",
+    "newTickets": "{count} new tickets just landed on the board.",
+    "newTitle": "New order received",
+    "moved": "{order} moved to {status}",
+    "updatedTitle": "Ticket updated",
+    "updateFailed": "Could not update the order"
+  },
+  "error": {
+    "title": "Barista board unavailable",
+    "message": "Could not load incoming orders."
+  },
+  "detail": {
+    "items": "{count} items",
+    "orderNote": "Order note",
+    "ticket": "Barista ticket",
+    "print": "Print ticket",
+    "printing": "Printing…",
+    "printFailed": "Could not print the barista ticket",
+    "close": "Close"
+  }
+}

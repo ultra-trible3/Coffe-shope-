@@ -1,0 +1,125 @@
+{
+  "search": {
+    "placeholder": "Search the menu — drink, SKU or description (F2)",
+    "aria": "Search menu",
+    "clear": "Clear search"
+  },
+  "allMenu": "All menu",
+  "empty": {
+    "title": "No menu items match",
+    "message": "Try another category or clear the search.",
+    "reset": "Reset filters"
+  },
+  "builder": {
+    "edit": "Edit item",
+    "customise": "Customise",
+    "build": "Build the order",
+    "pick": "Pick a menu item to begin",
+    "clearSelection": "Clear selection"
+  },
+  "start": {
+    "title": "Start with a menu item",
+    "message": "Choose a coffee, pastry or dessert on the left. Sizes, extras and barista notes are configured here.",
+    "featured": "Featured today"
+  },
+  "prepTime": "{minutes} min prep",
+  "chooseSize": "Choose a size",
+  "toppings": {
+    "title": "Extras",
+    "selected": "{count} selected"
+  },
+  "quantity": "Quantity",
+  "decreaseQuantity": "Decrease quantity",
+  "increaseQuantity": "Increase quantity",
+  "lineTotal": "Line total",
+  "kitchenNotes": "Barista notes",
+  "kitchenNotesPlaceholder": "e.g. extra shot, oat milk, less sweet",
+  "addToCart": "Add to cart",
+  "quickAdded": "{name} added to the cart",
+  "saveChanges": "Save changes",
+  "currentOrder": "Current order",
+  "orderSummary": "{count} items · {type}",
+  "clear": "Clear",
+  "table": "Table",
+  "tablePlaceholder": "e.g. 12",
+  "guest": {
+    "title": "Guest",
+    "saved": "Saved guest",
+    "clear": "Clear",
+    "name": "Guest name",
+    "phone": "Phone",
+    "address": "Delivery address (required)"
+  },
+  "cartEmpty": {
+    "title": "The cart is empty",
+    "message": "Add a drink or a pastry to start the order."
+  },
+  "line": {
+    "decrease": "Decrease {name}",
+    "increase": "Increase {name}",
+    "edit": "Edit",
+    "remove": "Remove",
+    "each": "{price} ea"
+  },
+  "discount": {
+    "none": "No discount",
+    "limit": "Cashier discount limit: {percent}% ({amount})"
+  },
+  "orderNotes": "Order notes (optional)",
+  "summary": {
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "tax": "Tax ({rate}%)",
+    "delivery": "Delivery",
+    "total": "Total"
+  },
+  "payment": {
+    "line": "Payment {number}",
+    "cashReceived": "Cash received",
+    "amount": "Amount",
+    "exact": "Exact",
+    "shortfall": "Cash is short of the remaining amount.",
+    "changeDue": "Change due",
+    "remaining": "Remaining {amount}",
+    "reference": "Transaction ref.",
+    "referencePlaceholder": "e.g. TXN-4821",
+    "add": "Split payment",
+    "remove": "Remove payment"
+  },
+  "placeOrder": "Place order",
+  "placing": "Placing order…",
+  "charge": "Charge {amount}",
+  "viewKitchen": "View barista queue",
+  "validation": {
+    "cartEmpty": "Add at least one item to the order",
+    "address": "A delivery address is required",
+    "discountLimit": "This discount exceeds your {percent}% limit",
+    "cashShort": "Cash received is less than the remaining amount",
+    "paymentOver": "Card and wallet amounts exceed the total",
+    "cashUnused": "Remove the empty cash payment or lower the card and wallet amounts",
+    "paymentTotal": "Payments must add up to the total"
+  },
+  "guests": {
+    "title": "Saved guests",
+    "description": "Pick a guest profile to attach contact details and order history.",
+    "search": "Search by name or phone",
+    "loading": "Loading saved guests",
+    "loadError": "Could not load guests.",
+    "emptyTitle": "No saved guests",
+    "emptyMessage": "Type a name above or close this and enter the guest manually.",
+    "noPhone": "No phone",
+    "ordersCount": "{count} orders"
+  },
+  "errors": {
+    "loadTitle": "The shop could not load",
+    "loadHint": "Check the server connection and try again.",
+    "createFailed": "Could not create the order",
+    "chooseSize": "Choose a size for {name}",
+    "itemGone": "That menu item is no longer available"
+  },
+  "product": {
+    "featured": "Featured",
+    "soldOut": "Sold out",
+    "from": "from {price}"
+  }
+}

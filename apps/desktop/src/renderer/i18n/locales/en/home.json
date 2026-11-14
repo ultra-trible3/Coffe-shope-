@@ -1,0 +1,126 @@
+{
+  "hero": {
+    "eyebrow": "Specialty coffee · Maadi",
+    "titleLine1": "Your Daily",
+    "titleLine2": "Dose of Happiness",
+    "subtitle": "Small-batch beans, slow pours and warm pastries. Qahwa is the corner where your morning slows down and your day begins.",
+    "imageAlt": "A barista pouring latte art into a warm ceramic cup",
+    "shopNow": "Shop now",
+    "exploreMenu": "Explore the menu",
+    "openHours": "Open daily · 8:00 – 22:00",
+    "rating": "4.9 from 1,200+ guests",
+    "badge": "Roasted in-house"
+  },
+  "featured": {
+    "eyebrow": "The house picks",
+    "title": "Featured coffee",
+    "subtitle": "Barista favourites, brewed exactly the way you like them.",
+    "viewAll": "View full menu",
+    "addToCart": "Add to cart"
+  },
+  "bestSellers": {
+    "eyebrow": "Most loved",
+    "title": "Best sellers",
+    "subtitle": "The cups our regulars order before they even sit down.",
+    "viewAll": "Shop best sellers"
+  },
+  "offers": {
+    "eyebrow": "This week",
+    "title": "Special offers",
+    "subtitle": "Little rituals, better value.",
+    "claim": "Order now",
+    "items": {
+      "morning": {
+        "title": "Morning pair",
+        "description": "Any hot coffee with a butter croissant, before 11am.",
+        "price": "EGP 95",
+        "oldPrice": "EGP 120",
+        "tag": "Save 20%"
+      },
+      "cold": {
+        "title": "Cold brew hours",
+        "description": "Second iced coffee half price, every day after 3pm.",
+        "price": "Half price",
+        "oldPrice": "2nd cup",
+        "tag": "After 3pm"
+      },
+      "beans": {
+        "title": "Take-home beans",
+        "description": "250g bag of our house blend, roasted this week.",
+        "price": "EGP 240",
+        "oldPrice": "EGP 280",
+        "tag": "Fresh roast"
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "Our story",
+    "title": "About our coffee",
+    "paragraph1": "Qahwa began with a small roaster, a second-hand espresso machine and a simple idea: a great cup should feel like a small pause, not a quick fix.",
+    "paragraph2": "We roast in small batches every week, dial in every shot and bake the pastries that sit beside them. No shortcuts, no syrupy cover-ups — just coffee that tastes like it was made for you.",
+    "points": {
+      "sourcing": "Single-origin beans, sourced directly",
+      "roasting": "Roasted in small batches every week",
+      "craft": "Dialled in by baristas, cup by cup"
+    },
+    "imageAlt": "Roasted coffee beans beside a pour-over brewer"
+  },
+  "reviews": {
+    "eyebrow": "Word of mouth",
+    "title": "What our guests say",
+    "subtitle": "Real mornings, real regulars.",
+    "items": {
+      "one": {
+        "quote": "The flat white is the best in Maadi, and the team remembers my order every single morning.",
+        "name": "Nour H.",
+        "role": "Regular since 2022"
+      },
+      "two": {
+        "quote": "I come for the cold brew and stay for the cheesecake. Quiet music, warm light, perfect to work.",
+        "name": "Karim S.",
+        "role": "Works from the café"
+      },
+      "three": {
+        "quote": "Ordered delivery on a rainy day and it arrived hot, sealed and exactly on time. That never happens.",
+        "name": "Salma A.",
+        "role": "Delivery guest"
+      }
+    }
+  },
+  "menu": {
+    "eyebrow": "The menu",
+    "title": "Find your cup",
+    "subtitle": "Hot, iced and everything on the side.",
+    "all": "All",
+    "empty": "Nothing in this category yet.",
+    "unavailable": "Sold out",
+    "from": "from {price}",
+    "items": "{count} items",
+    "browse": "Browse",
+    "hotDrinks": "Hot drinks",
+    "coldDrinks": "Cold drinks",
+    "food": "Food & desserts"
+  },
+  "footer": {
+    "tagline": "Your daily dose of happiness.",
+    "visit": "Visit us",
+    "contact": "Contact",
+    "hours": "Hours",
+    "explore": "Explore",
+    "hoursValue": "Every day · 8:00 – 22:00",
+    "follow": "Follow",
+    "rights": "© {year} Qahwa Coffee House. All rights reserved.",
+    "links": {
+      "menu": "Menu",
+      "about": "About",
+      "offers": "Offers",
+      "reviews": "Reviews"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "tiktok": "TikTok",
+      "x": "X"
+    }
+  }
+}

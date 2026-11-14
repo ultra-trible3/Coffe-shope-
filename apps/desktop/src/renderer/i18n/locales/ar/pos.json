@@ -1,0 +1,125 @@
+{
+  "search": {
+    "placeholder": "ابحث في القائمة — المشروب أو رمز الصنف أو الوصف (F2)",
+    "aria": "بحث في القائمة",
+    "clear": "مسح البحث"
+  },
+  "allMenu": "كل القائمة",
+  "empty": {
+    "title": "لا توجد أصناف مطابقة",
+    "message": "جرّب فئة أخرى أو امسح البحث.",
+    "reset": "إعادة تعيين التصفية"
+  },
+  "builder": {
+    "edit": "تعديل الصنف",
+    "customise": "تخصيص",
+    "build": "إنشاء الطلب",
+    "pick": "اختر صنفًا للبدء",
+    "clearSelection": "إلغاء الاختيار"
+  },
+  "start": {
+    "title": "ابدأ بصنف من القائمة",
+    "message": "اختر قهوة أو مخبوزًا أو حلوى من اليسار. يتم ضبط المقاسات والإضافات وملاحظات الباريستا هنا.",
+    "featured": "مميز اليوم"
+  },
+  "prepTime": "تحضير {minutes} دقيقة",
+  "chooseSize": "اختر مقاسًا",
+  "toppings": {
+    "title": "إضافات",
+    "selected": "{count} محددة"
+  },
+  "quantity": "الكمية",
+  "decreaseQuantity": "تقليل الكمية",
+  "increaseQuantity": "زيادة الكمية",
+  "lineTotal": "إجمالي السطر",
+  "kitchenNotes": "ملاحظات الباريستا",
+  "kitchenNotesPlaceholder": "مثال: جرعة إضافية، حليب شوفان، سكر أقل",
+  "addToCart": "إضافة إلى السلة",
+  "quickAdded": "تمت إضافة {name} إلى السلة",
+  "saveChanges": "حفظ التغييرات",
+  "currentOrder": "الطلب الحالي",
+  "orderSummary": "{count} أصناف · {type}",
+  "clear": "مسح",
+  "table": "الطاولة",
+  "tablePlaceholder": "مثال: ١٢",
+  "guest": {
+    "title": "الضيف",
+    "saved": "ضيف محفوظ",
+    "clear": "مسح",
+    "name": "اسم الضيف",
+    "phone": "الهاتف",
+    "address": "عنوان التوصيل (مطلوب)"
+  },
+  "cartEmpty": {
+    "title": "السلة فارغة",
+    "message": "أضف مشروبًا أو مخبوزًا لبدء الطلب."
+  },
+  "line": {
+    "decrease": "تقليل {name}",
+    "increase": "زيادة {name}",
+    "edit": "تعديل",
+    "remove": "إزالة",
+    "each": "{price} للواحد"
+  },
+  "discount": {
+    "none": "بدون خصم",
+    "limit": "حد خصم الكاشير: {percent}% ({amount})"
+  },
+  "orderNotes": "ملاحظات الطلب (اختياري)",
+  "summary": {
+    "subtotal": "المجموع الفرعي",
+    "discount": "الخصم",
+    "tax": "الضريبة ({rate}%)",
+    "delivery": "التوصيل",
+    "total": "الإجمالي"
+  },
+  "payment": {
+    "line": "الدفعة {number}",
+    "cashReceived": "المبلغ النقدي المستلم",
+    "amount": "المبلغ",
+    "exact": "المبلغ بالضبط",
+    "shortfall": "المبلغ النقدي أقل من المتبقي.",
+    "changeDue": "الباقي المستحق",
+    "remaining": "المتبقي {amount}",
+    "reference": "رقم مرجع العملية",
+    "referencePlaceholder": "مثال: TXN-4821",
+    "add": "تقسيم الدفع",
+    "remove": "إزالة الدفعة"
+  },
+  "placeOrder": "تأكيد الطلب",
+  "placing": "جارٍ إنشاء الطلب…",
+  "charge": "تحصيل {amount}",
+  "viewKitchen": "عرض طابور الباريستا",
+  "validation": {
+    "cartEmpty": "أضف صنفًا واحدًا على الأقل إلى الطلب",
+    "address": "عنوان التوصيل مطلوب",
+    "discountLimit": "هذا الخصم يتجاوز حدك البالغ {percent}%",
+    "cashShort": "المبلغ النقدي المستلم أقل من المبلغ المتبقي",
+    "paymentOver": "مبلغ البطاقة والمحفظة يتجاوز الإجمالي",
+    "cashUnused": "أزل دفعة النقد الفارغة أو قلّل مبالغ البطاقة والمحفظة",
+    "paymentTotal": "يجب أن تساوي الدفعات إجمالي الفاتورة"
+  },
+  "guests": {
+    "title": "الضيوف المحفوظون",
+    "description": "اختر ملف ضيف لإرفاق بيانات الاتصال وسجل الطلبات.",
+    "search": "ابحث بالاسم أو الهاتف",
+    "loading": "جارٍ تحميل الضيوف المحفوظين",
+    "loadError": "تعذّر تحميل الضيوف.",
+    "emptyTitle": "لا يوجد ضيوف محفوظون",
+    "emptyMessage": "اكتب اسمًا أعلاه أو أغلق هذه النافذة وأدخل بيانات الضيف يدويًا.",
+    "noPhone": "بدون هاتف",
+    "ordersCount": "{count} طلبات"
+  },
+  "errors": {
+    "loadTitle": "تعذّر تحميل المتجر",
+    "loadHint": "تحقق من اتصال الخادم وحاول مجددًا.",
+    "createFailed": "تعذّر إنشاء الطلب",
+    "chooseSize": "اختر مقاسًا لـ {name}",
+    "itemGone": "هذا الصنف لم يعد متاحًا"
+  },
+  "product": {
+    "featured": "مميز",
+    "soldOut": "نفد",
+    "from": "يبدأ من {price}"
+  }
+}

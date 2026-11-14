@@ -1,0 +1,248 @@
+{
+  "app": {
+    "name": "Qahwa",
+    "company": "Coffee House",
+    "fullName": "Qahwa Coffee House",
+    "location": "Maadi, Cairo",
+    "tagline": "Your daily dose of happiness.",
+    "loading": "Loading…"
+  },
+  "charts": {
+    "trendAria": "Trend chart",
+    "distributionAria": "Distribution chart",
+    "noData": "No data for this range"
+  },
+  "skeletons": {
+    "dashboard": "Loading dashboard",
+    "kitchen": "Loading the barista board",
+    "pos": "Loading the shop",
+    "reports": "Loading report",
+    "settings": "Loading coffee house settings"
+  },
+  "actions": {
+    "save": "Save",
+    "saving": "Saving…",
+    "cancel": "Cancel",
+    "close": "Close",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "create": "Create",
+    "update": "Update",
+    "search": "Search",
+    "reset": "Reset",
+    "retry": "Try again",
+    "refresh": "Refresh",
+    "print": "Print",
+    "download": "Download",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "clear": "Clear",
+    "apply": "Apply",
+    "remove": "Remove",
+    "view": "View",
+    "open": "Open",
+    "export": "Export",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "newOrder": "New order",
+    "select": "Select",
+    "all": "All",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "continue": "Continue",
+    "done": "Done",
+    "details": "Details",
+    "total": "Total",
+    "quantity": "Quantity",
+    "price": "Price",
+    "date": "Date",
+    "time": "Time",
+    "status": "Status",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "notes": "Notes",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "optional": "Optional",
+    "required": "Required",
+    "none": "None",
+    "unknown": "Unknown",
+    "showing": "Showing {count} of {total}",
+    "loadMore": "Load more"
+  },
+  "labels": {
+    "currency": "EGP",
+    "orderStatus": {
+      "pending": "New",
+      "confirmed": "Accepted",
+      "preparing": "Brewing",
+      "ready": "Ready",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "orderType": {
+      "DINE_IN": "Dine-in",
+      "TAKEAWAY": "Takeaway",
+      "DELIVERY": "Delivery"
+    },
+    "paymentMethod": {
+      "CASH": "Cash",
+      "CARD": "Card",
+      "WALLET": "Mobile wallet"
+    },
+    "paymentStatus": {
+      "PAID": "Paid",
+      "UNPAID": "Unpaid",
+      "REFUNDED": "Refunded"
+    },
+    "menuKind": {
+      "HOT_DRINK": "Hot drink",
+      "COLD_DRINK": "Cold drink",
+      "BAKERY": "Bakery",
+      "DESSERT": "Dessert"
+    },
+    "unit": {
+      "KG": "kg",
+      "G": "g",
+      "L": "L",
+      "ML": "ml",
+      "PIECE": "pcs",
+      "PACK": "pack"
+    },
+    "movement": {
+      "PURCHASE": "Purchase / restock",
+      "SALE_DEDUCTION": "Order deduction",
+      "ADJUSTMENT": "Stock adjustment",
+      "WASTE": "Waste",
+      "RETURN": "Supplier return",
+      "CANCELLATION_RETURN": "Order cancellation"
+    },
+    "role": {
+      "ADMIN": "Administrator",
+      "CASHIER": "Cashier",
+      "KITCHEN_STAFF": "Barista"
+    },
+    "roleDescription": {
+      "ADMIN": "Full control of the coffee house, menu, inventory and financial reports.",
+      "CASHIER": "Runs the register, creates orders, takes payments and prints receipts.",
+      "KITCHEN_STAFF": "Works the barista bar and advances drink preparation status."
+    },
+    "discountType": {
+      "PERCENT": "Percentage",
+      "FIXED": "Fixed amount"
+    }
+  },
+  "states": {
+    "loading": "Loading…",
+    "loadingData": "Loading data…",
+    "empty": "Nothing here yet",
+    "noResults": "No results match your search",
+    "error": "Something went wrong",
+    "errorHint": "Please retry. If the problem continues, check the server connection.",
+    "serverUnreachable": "Server unreachable",
+    "kitchenOnline": "Barista bar online",
+    "retry": "Try again",
+    "notFound": "Not found",
+    "noPermission": "You do not have permission to view this."
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
+  },
+  "language": {
+    "label": "Language",
+    "english": "English",
+    "arabic": "العربية",
+    "englishShort": "EN",
+    "arabicShort": "AR",
+    "switchToArabic": "Switch to Arabic",
+    "switchToEnglish": "Switch to English"
+  },
+  "pagination": {
+    "pageOf": "Page {page} of {total}",
+    "previous": "Previous page",
+    "next": "Next page",
+    "range": "{from}–{to} of {total}"
+  },
+  "validation": {
+    "required": "This field is required",
+    "requiredBothLanguages": "Enter this field in both English and Arabic",
+    "invalidEmail": "Enter a valid email address",
+    "invalidPhone": "Enter a valid phone number",
+    "positive": "Enter a value greater than zero",
+    "nonNegative": "Enter zero or a positive value",
+    "tooShort": "This value is too short",
+    "tooLong": "This value is too long",
+    "mismatch": "The values do not match",
+    "invalidNumber": "Enter a valid number"
+  },
+  "feedback": {
+    "saved": "Saved",
+    "created": "Created",
+    "updated": "Updated",
+    "deleted": "Deleted",
+    "copied": "Copied",
+    "changesSaved": "Your changes were saved."
+  },
+  "confirm": {
+    "title": "Are you sure?",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "audit": {
+    "actions": {
+      "authLoginFailed": "Failed sign-in",
+      "authLoginSuccess": "Signed in",
+      "authLogout": "Signed out",
+      "authPasswordChanged": "Password changed",
+      "authRefresh": "Session refreshed",
+      "categoryCreated": "Category created",
+      "categoryDeleted": "Category deleted",
+      "categoryUpdated": "Category updated",
+      "customerCreated": "Customer created",
+      "customerDeleted": "Customer deleted",
+      "customerUpdated": "Customer updated",
+      "discountCreated": "Discount created",
+      "discountDeleted": "Discount deleted",
+      "discountUpdated": "Discount updated",
+      "inventoryAdjusted": "Stock adjusted",
+      "ingredientCreated": "Ingredient created",
+      "ingredientDeleted": "Ingredient deleted",
+      "ingredientUpdated": "Ingredient updated",
+      "inventoryPurchased": "Stock received",
+      "menuItemCreated": "Menu item created",
+      "menuItemDeleted": "Menu item deleted",
+      "menuItemUpdated": "Menu item updated",
+      "recipeUpdated": "Recipe updated",
+      "toppingCreated": "Extra created",
+      "toppingDeleted": "Extra deleted",
+      "toppingUpdated": "Extra updated",
+      "orderCancelled": "Order cancelled",
+      "orderCreated": "Order created",
+      "orderStatusUpdated": "Order status updated",
+      "settingsUpdated": "Settings updated",
+      "supplierCreated": "Supplier created",
+      "supplierDeleted": "Supplier deleted",
+      "supplierUpdated": "Supplier updated",
+      "userCreated": "Staff account created",
+      "userDeactivated": "Staff account deactivated",
+      "userPasswordReset": "Password reset",
+      "userUpdated": "Staff account updated"
+    }
+  },
+  "toast": {
+    "success": "Success",
+    "error": "Something went wrong",
+    "info": "Notice",
+    "dismiss": "Dismiss notification",
+    "notifications": "Notifications"
+  }
+}

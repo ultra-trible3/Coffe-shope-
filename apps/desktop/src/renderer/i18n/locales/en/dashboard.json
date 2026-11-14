@@ -1,0 +1,95 @@
+{
+  "title": "Service overview",
+  "subtitle": "Live figures from completed and paid orders · generated {time}",
+  "rangeAria": "Dashboard range",
+  "ranges": {
+    "7": "Last 7 days",
+    "14": "Last 14 days",
+    "30": "Last 30 days",
+    "90": "Last 90 days"
+  },
+  "refresh": "Refresh",
+  "refreshAria": "Refresh dashboard",
+  "metrics": {
+    "revenue": "Revenue",
+    "orders": "Orders",
+    "profit": "Profit"
+  },
+  "stats": {
+    "todayRevenue": "Today's revenue",
+    "vsYesterday": "vs yesterday",
+    "ordersToday": "Orders today",
+    "paidOrders": "Paid orders",
+    "averageOrder": "Average order",
+    "basketSize": "Today's basket size",
+    "todayProfit": "Today's profit",
+    "afterCost": "After ingredient cost",
+    "activeItems": "Active menu items",
+    "available": "Available to sell",
+    "customers": "Customers",
+    "savedGuests": "Saved guest profiles",
+    "openOrders": "Open orders",
+    "waitingKitchen": "Waiting on the barista",
+    "lowStock": "Low stock",
+    "lowStockHint": "Ingredients at or below minimum"
+  },
+  "trend": {
+    "title": "{metric} trend",
+    "subtitle": "{days} days · {total}",
+    "ordersCount": "{count} orders"
+  },
+  "paymentMix": {
+    "title": "Payment mix",
+    "description": "How guests are paying",
+    "collected": "Collected",
+    "noPayments": "No payments recorded.",
+    "orders": "{count} orders"
+  },
+  "category": {
+    "title": "Sales by category",
+    "description": "Revenue contribution in the selected range",
+    "empty": "No sales in this range",
+    "row": "{orders} orders · {revenue}"
+  },
+  "bestSellers": {
+    "title": "Best sellers",
+    "description": "Top menu items by units sold",
+    "empty": "Nothing sold yet",
+    "fallbackCategory": "Menu",
+    "sold": "{count} sold"
+  },
+  "recent": {
+    "title": "Recent orders",
+    "description": "Latest tickets across all services",
+    "viewAll": "View all",
+    "empty": "No orders yet",
+    "emptyMessage": "Take the first order from the shop.",
+    "columns": {
+      "order": "Order",
+      "type": "Type",
+      "status": "Status",
+      "total": "Total",
+      "time": "Time"
+    }
+  },
+  "lowStockAlerts": {
+    "title": "Low stock alerts",
+    "description": "At or below minimum level",
+    "empty": "Stock levels are healthy",
+    "low": "Low",
+    "stockLine": "{current} / min {minimum} {unit}"
+  },
+  "activity": {
+    "title": "Latest activity",
+    "description": "Menu, stock and order changes",
+    "loading": "Loading activity",
+    "unavailable": "Activity log is unavailable.",
+    "empty": "No activity yet",
+    "system": "System"
+  },
+  "error": {
+    "title": "Dashboard unavailable",
+    "message": "Could not load coffee house statistics."
+  },
+  "footer": "Statistics are calculated live from paid, non-cancelled orders. Profit subtracts recipe and extra ingredient cost; it is never estimated."
+}

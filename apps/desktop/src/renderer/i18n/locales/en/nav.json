@@ -1,0 +1,46 @@
+{
+  "groups": {
+    "shop": "Storefront",
+    "operations": "Operations",
+    "restaurant": "Coffee house",
+    "insights": "Insights",
+    "administration": "Administration"
+  },
+  "items": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "pos": "Shop",
+    "orders": "Orders",
+    "kitchen": "Barista board",
+    "invoices": "Invoices",
+    "menu": "Menu & pricing",
+    "inventory": "Inventory",
+    "customers": "Customers",
+    "reports": "Reports",
+    "users": "Staff accounts",
+    "settings": "Settings"
+  },
+  "subtitles": {
+    "home": "The Qahwa storefront, offers and story",
+    "dashboard": "Live coffee house performance and service activity",
+    "pos": "Browse the menu, customise drinks and take payment",
+    "orders": "Track barista status and order history",
+    "kitchen": "Incoming tickets, preparation queue and ready counter",
+    "invoices": "Search, review and reprint customer receipts",
+    "menu": "Categories, drinks, sizes, extras and discounts",
+    "inventory": "Ingredients, recipe stock movements and suppliers",
+    "customers": "Guest profiles, spend history and contact details",
+    "reports": "Revenue, profit, products, cashiers and inventory consumption",
+    "users": "Administrator, cashier and barista accounts",
+    "settings": "Coffee house identity, tax and service defaults"
+  },
+  "aria": {
+    "expandNavigation": "Expand navigation",
+    "collapseNavigation": "Collapse navigation",
+    "closeNavigation": "Close navigation",
+    "openNavigation": "Open navigation",
+    "mainNavigation": "Main navigation",
+    "primaryNavigation": "Primary navigation",
+    "signOut": "Sign out"
+  }
+}

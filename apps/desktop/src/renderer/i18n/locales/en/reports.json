@@ -1,0 +1,116 @@
+{
+  "presets": {
+    "today": "Today",
+    "week": "Last 7 days",
+    "month": "This month",
+    "lastMonth": "Last month",
+    "year": "This year"
+  },
+  "filters": {
+    "from": "From",
+    "to": "To",
+    "apply": "Apply",
+    "refreshAria": "Refresh report",
+    "trend": "Trend",
+    "daily": "Daily",
+    "monthly": "Monthly",
+    "rangeDays": "{count} days",
+    "generatedFrom": "Generated from {count} paid orders"
+  },
+  "error": {
+    "title": "Could not build this report"
+  },
+  "metrics": {
+    "revenue": "Revenue",
+    "orders": "Orders",
+    "profit": "Net profit"
+  },
+  "stats": {
+    "revenue": "Revenue",
+    "revenueHint": "Paid orders in range",
+    "paidOrders": "Paid orders",
+    "itemsSold": "{count} items sold",
+    "netProfit": "Net profit",
+    "recipeBasis": "Recipe cost basis",
+    "margin": "{percent}% margin after cost",
+    "averageOrder": "Average order",
+    "averageHint": "Revenue ÷ paid orders"
+  },
+  "trend": {
+    "title": "{metric} trend",
+    "description": "{granularity} aggregation for the selected range",
+    "empty": "No paid orders in this range"
+  },
+  "financial": {
+    "title": "Financial breakdown",
+    "description": "Costs from recipe snapshots at time of sale",
+    "gross": "Gross revenue",
+    "discounts": "Discounts given",
+    "tax": "Tax collected",
+    "delivery": "Delivery fees",
+    "foodCost": "Ingredient cost",
+    "netProfit": "Net profit",
+    "formula": "Profit = revenue − discounts − ingredient cost + delivery. Taxes are excluded."
+  },
+  "category": {
+    "title": "Sales by category",
+    "description": "Revenue contribution of each menu category",
+    "empty": "No category sales",
+    "emptyMessage": "No paid orders in this range.",
+    "row": "{revenue} · {units} units"
+  },
+  "payments": {
+    "title": "Payment methods",
+    "description": "Collected amount split by tender",
+    "empty": "No payments",
+    "emptyMessage": "No paid orders in this range.",
+    "collected": "Collected",
+    "count": "{count} ×",
+    "percent": "{percent}%"
+  },
+  "bestSellers": {
+    "title": "Best-selling items",
+    "description": "Ranked by units sold in this range",
+    "empty": "No item sales",
+    "emptyMessage": "No paid orders in this range.",
+    "uncategorised": "Uncategorised"
+  },
+  "cashiers": {
+    "title": "Cashier performance",
+    "description": "Paid orders handled by each cashier",
+    "empty": "No cashier activity",
+    "emptyMessage": "No paid orders in this range.",
+    "columns": {
+      "cashier": "Cashier",
+      "orders": "Orders",
+      "revenue": "Revenue",
+      "average": "Average"
+    }
+  },
+  "discounts": {
+    "title": "Discounts",
+    "description": "Applied promotions and manual reductions",
+    "empty": "No discounts",
+    "emptyMessage": "No discounted orders in this range.",
+    "orders": "{count} orders",
+    "order": "{count} order"
+  },
+  "ordersByType": {
+    "title": "Orders by service",
+    "description": "Dine-in, takeaway and delivery mix",
+    "empty": "No orders",
+    "emptyMessage": "No paid orders in this range.",
+    "row": "{orders} orders · {revenue}"
+  },
+  "inventory": {
+    "title": "Inventory consumption",
+    "description": "Ingredient cost consumed · {cost}",
+    "empty": "No consumption recorded",
+    "emptyMessage": "Stock deductions are logged when orders are checked out."
+  },
+  "empty": {
+    "title": "No paid orders in this period",
+    "message": "Pick another date range or check that orders have been completed and paid."
+  },
+  "footer": "All figures are aggregated from paid, non-cancelled orders in the coffee house database."
+}
